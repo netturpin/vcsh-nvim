@@ -7,21 +7,21 @@ endif
 
 "Install plugins
 call plug#begin('~/.config/nvim/plugged')
-Plug 'chase/vim-ansible-yaml'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'elzr/vim-json'
-Plug 'jlanzarotta/bufexplorer'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'majutsushi/tagbar'
-Plug 'neomake/neomake'
-Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'tmux-plugins/vim-tmux'
-Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'Yggdroot/indentLine'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'netturpin/vim-ansible-yaml'
+Plug 'netturpin/vim-tmux-navigator'
+Plug 'netturpin/vim-json'
+Plug 'netturpin/bufexplorer'
+Plug 'netturpin/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'netturpin/fzf.vim'
+Plug 'netturpin/tagbar'
+Plug 'netturpin/neomake'
+Plug 'netturpin/nerdtree'
+Plug 'netturpin/nerdcommenter'
+Plug 'netturpin/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'netturpin/vim-tmux'
+Plug 'netturpin/vim-fugitive'
+Plug 'netturpin/vim-airline'
+Plug 'netturpin/vim-airline-themes'
+Plug 'netturpin/indentLine'
+Plug 'netturpin/nerdtree-git-plugin'
 call plug#end()
