@@ -2,7 +2,7 @@
 
 "elzr/vim-json
 " Make vim-json and indentLine works together
-"let g:vim_json_syntax_conceal = ''
+let g:vim_json_syntax_conceal = ''
 
 "jlanzarotta/bufexplorer
 
@@ -19,7 +19,7 @@
 "scrooloose/nerdcommenter
 
 "Shougo/deoplete
-call deoplete#enable()
+let g:deoplete#enable_at_startup = 1
 
 "tmux-plugins/vim-tmux
 

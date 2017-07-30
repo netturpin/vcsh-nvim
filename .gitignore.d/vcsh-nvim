@@ -1,0 +1,11 @@
+*
+!/.config
+!/.config/nvim
+!/.config/nvim/colors
+!/.config/nvim/colors/molokai.vim
+!/.config/nvim/config
+!/.config/nvim/config/general.vimrc
+!/.config/nvim/config/init.vimrc
+!/.config/nvim/config/plugins.vimrc
+!/.config/nvim/config/status.vimrc
+!/.config/nvim/init.vim
